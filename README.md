@@ -2,7 +2,7 @@
 Use GCD to concurrently download multiple images
 
   A demo that includes a thread-safe singleton object used to concurrently download multiple images from [Unsplash Source](https://source.unsplash.com/)
-  <br/><br/>
+  <br/><br/><br/>
   *__Techniques/Frameworks used:__*
 
 1. GCD - sync/async concurrent `DispatchQueue`
