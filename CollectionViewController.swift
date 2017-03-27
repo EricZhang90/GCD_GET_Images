@@ -47,6 +47,7 @@ private extension CollectionViewController {
     }
 
     @objc func downloadImage() {
+        navigationItem.leftBarButtonItem?.isEnabled = false
         var urls = [String]()
         for _ in 0..<20 {
             urls.append(imageURL)
@@ -59,6 +60,7 @@ private extension CollectionViewController {
             else {
                 self.prompt(title: "Download Completed!", msg: "")
             }
+            self.navigationItem.leftBarButtonItem?.isEnabled = true
         }
         
         self.collectionView?.reloadData()
