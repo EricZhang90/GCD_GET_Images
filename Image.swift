@@ -8,9 +8,6 @@
 
 import UIKit
 
-
-// TODO: change collection view layout
-
 private let downloadSession = URLSession(configuration: URLSessionConfiguration.ephemeral)
 
 let imageUpdateNotification = "com.ericZhang.imageUpdate"
