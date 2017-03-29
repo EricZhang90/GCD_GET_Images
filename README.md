@@ -1,4 +1,4 @@
-# iOS_GCD_GET_Images
+# iOS_GCD_Concurrent_Downloader
 Use GCD to concurrently download multiple images
 
   A demo that includes a thread-safe singleton object used to concurrently download multiple images from [Unsplash Source](https://source.unsplash.com/)
